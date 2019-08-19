@@ -149,6 +149,7 @@
             this.Controls.Add(this.tbx_serializeList);
             this.Name = "Form_main";
             this.Text = "Проверка работы алгоритмов сериализации и десериализации двухсвязного списка";
+            this.Load += new System.EventHandler(this.Form_main_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

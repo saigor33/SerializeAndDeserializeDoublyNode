@@ -41,7 +41,7 @@ namespace createSerialize_DoublyNode
 
         }
 
-        //метод проверки связий. Вывод в формате Item{<Значение Data>, 
+        //метод проверки связей. Вывод в формате Item{<Значение Data>, 
         //<Значение Data след эл-та>, <Значение Data предыдущего эл-та>
         private string test_doublyNode(ListRandom list)
         {
@@ -110,5 +110,9 @@ namespace createSerialize_DoublyNode
             tbx_new_listNode.Text = test_doublyNode(getList);
         }
 
+        private void Form_main_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
